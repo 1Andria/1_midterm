@@ -120,6 +120,7 @@ body{
     line-height: normal;
     margin-right: 224px;
     margin-top: 14px;
+    margin-left: 40px;
 }
 .box{
     width: 288px;
@@ -132,20 +133,18 @@ body{
 
 #red_box{
     background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
-    margin-right: 40px;
+
 }
 #yellow_box{
     background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
-    margin-right: 40px;
+
 }
 #green_box{
     background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
-    margin-right: 40px;
 }
 #purp_box{
 
     background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
-    margin-right: 40px;
 }
 
 
@@ -263,6 +262,7 @@ body{
     flex-shrink: 0;
     border-radius: 128px;
     background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    border:none;
     display: flex;
     justify-content: center;
     align-items: center;
